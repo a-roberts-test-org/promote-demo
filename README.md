@@ -2,10 +2,10 @@
 
 Note the directory structure - this is a *source repository* and not a GitOps repository.
 
-This can be promoted into an existing remote GitOps repository with, for example:
+This can be promoted into an existing remote GitOps repository with, for example (do this from the parent directory):
 
 ```
-./services promote --from config --to https://github.com/a-roberts/gitops.git --service myservice
+services promote --from promote-demo --to https://github.com/a-roberts/gitops.git --service promote-demo
 ```
 
 https://github.com/a-roberts/gitops-devops.git is a *GitOps* repository.
